@@ -1,0 +1,12 @@
+@use '../../base';
+
+.input-email, .input-submit {
+    padding: 10px 15px;
+    border-radius: 0;
+    border: 0 solid white;
+}
+
+.input-submit {
+    background-color: base.$primary-color;
+    color: white;
+}
